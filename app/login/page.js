@@ -29,7 +29,7 @@ const login = () => {
       redirect: "follow"
     };
     
-    const response = await fetch("https://kbcgame-ten.vercel.app/api/data", requestOptions);
+    const response = await fetch("http://localhost:3000/api/data", requestOptions);
     const result = await response.json();
 
    

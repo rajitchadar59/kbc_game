@@ -28,6 +28,7 @@ const signup = () => {
       method: "POST",
       headers: myHeaders,
       body: raw,
+      mode: 'no-cors', 
       redirect: "follow"
     };
     

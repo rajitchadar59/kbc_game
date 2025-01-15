@@ -31,7 +31,7 @@ const signup = () => {
       redirect: "follow"
     };
     
-    fetch("https://kbc-game-tan-phi.vercel.app/api/contact", requestOptions)
+    fetch("kbc-game-six.vercel.app/api/contact", requestOptions)
       .then((response) => response.text())
       .then((result) => console.log(result))
       .catch((error) => console.error(error));

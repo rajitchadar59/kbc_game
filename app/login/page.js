@@ -29,7 +29,7 @@ const login = () => {
       redirect: "follow"
     };
     
-    const response = await fetch("kbc-game-six.vercel.app/api/data", requestOptions);
+    const response = await fetch("https://kbc-game-six.vercel.app/api/data", requestOptions);
     const result = await response.json();
 
    
